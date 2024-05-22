@@ -561,6 +561,9 @@ li.slick-active {
 }
 
 
+
+
+
 .layer-4 .details p {
     font-family: "Roboto";
     font-size: 28.17px;
@@ -738,26 +741,30 @@ li.slick-active {
     flex: 0 0 20%;
     max-width: 20%;
 }
+
 .cart .lists li.main {
-flex: 0 0 40%;
-max-width: 40%;
- }
-.cart .main img{
+    flex: 0 0 40%;
+    max-width: 40%;
+}
+
+.cart .main img {
     width: 100px;
-    height: 67.32px
-    ;
+    height: 67.32px;
 }
+
 .cart .main {
-   flex: 0 0 40%;
-   max-width: 40%;
+    flex: 0 0 40%;
+    max-width: 40%;
 }
+
 .cart .details {
     flex: 0 0 20%;
     max-width: 20%;
- }
-.cart .img-lap img {
-    width: 100%;
-    height: 100%;
+}
+
+.cart .main img {
+    width: 101px;
+    height: 67.32;
 }
 
 .now:hover {
@@ -803,6 +810,14 @@ max-width: 40%;
     border: none;
     border-radius: 3px;
 }
+.layer-t button a {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    color: #FFFFFF;
+
+}
 
 .cart-n h3 {
     font-family: 'Josefin Sans';
@@ -810,3 +825,455 @@ max-width: 40%;
     line-height: 23.44px;
     color: #1D3178;
 }
+
+.layer-img {
+    box-shadow: 0px 4px 6px 0px #F6F4FD;
+    border-radius: 3px;
+    position: relative;
+}
+
+.shipping .shipping-text {
+    padding: 76px 0 55px;
+}
+
+.shipping .shipping-text h2 {
+    font-family: 'Josefin Sans';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #1D3178;
+}
+
+.shipping .shipping-text span {
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    color: #1D3178;
+}
+
+.shipping .layer-form {
+    background-color: #FFEBF1;
+    border-radius: 3px;
+}
+
+.shipping form {
+    padding: 64px 30px;
+}
+
+.shipping form h4 {
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    line-height: 21.09px;
+    color: #1D3178;
+}
+
+.shipping form .header-f h5 {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.8px;
+    letter-spacing: 0.01em;
+    color: #9CB1FF;
+
+}
+
+.shipping form .header-f h5 a {
+    color: #FD0054;
+    text-decoration: none;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.8px;
+    letter-spacing: 0.01em;
+
+}
+
+
+
+.shipping form .checkout {
+    color: #8A91AB;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.4px;
+    letter-spacing: 0.02em;
+
+}
+
+form .checkout i {
+    color: #19D16F;
+}
+
+form .iputs input:focus {
+    box-shadow: none;
+}
+
+form .iputs {
+    padding-left: 15px;
+}
+
+form .iputs label {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.8px;
+    color: #9CB1FF;
+}
+
+.shipping .d-price .product-d p {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #000000;
+}
+
+.shipping .d-price .product-d span {
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 14.06px;
+    color: #A1A8C1;
+
+}
+
+.shipping .d-price .price-d {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    color: #15245E;
+}
+
+.shipping .d-price img {
+    box-shadow: 0px 1.39px 1.39px 0px #00000040;
+
+}
+
+.shipping .cart-n h3 {
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    line-height: 23.44px;
+    color: #1D3178;
+}
+
+.shipping .cart-n .cart-t h4 {
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    color: #1D3178;
+}
+
+.order img {
+    padding-bottom: 32px;
+}
+
+.order p {
+    font-family: 'Josefin Sans';
+    font-size: 36px;
+    line-height: 42.19px;
+    color: #101750;
+}
+
+.order span {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #8D92A7;
+}
+
+.order button {
+    margin-top: 24px;
+    padding: 15px 36px;
+    background-color: #FF1788;
+    border: 0;
+    border-radius: 0;
+}
+
+.order button:hover {
+    background-color: #FF1788;
+
+}
+
+/* .order .all-order {
+        border: 1px solid;
+    } */
+
+.order .all-order img {
+    width: 70px;
+}
+
+.order .all-order .checklist {
+    bottom: -40%;
+    right: 0;
+}
+
+.order {
+    padding: 200px 0;
+}
+
+.contact .contact-d .blue {
+    width: 25px;
+    height: 25px;
+    background-color: #5625DF;
+    border-radius: 50%;
+}
+
+.contact .contact-d .pink {
+    width: 25px;
+    height: 25px;
+    background-color: #FF27B7;
+    border-radius: 50%;
+}
+
+.contact .contact-d .blue-light {
+    width: 25px;
+    height: 25px;
+    background-color: #37DAF3;
+    border-radius: 50%;
+}
+
+.contact .contact-d .text-d h4 {
+    font-family: 'Josefin Sans';
+    font-size: 36px;
+    line-height: 48px;
+    color: #151875;
+
+}
+
+.contact .contact-d .text-d p {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25.6px;
+    color: #8A8FB9;
+}
+
+.contact .touch {
+    padding-top: 176px;
+}
+
+.contact .touch h4 {
+    font-family: 'Josefin Sans';
+    font-size: 36px;
+    line-height: 48px;
+    color: #151875;
+}
+
+.contact .touch p {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25.6px;
+    color: #8A8FB9;
+}
+
+.contact form textarea {
+    resize: none;
+    width: 100%;
+    height: 166px;
+}
+
+.contact form input::placeholder {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    letter-spacing: 0.01em;
+    color: #8A8FB9;
+}
+
+.contact form textarea::placeholder {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    letter-spacing: 0.01em;
+    color: #8A8FB9;
+}
+
+.contact form button {
+    border-radius: 0;
+    padding: 10px 41px;
+    border: none;
+    background-color: #FB2E86;
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    line-height: 25.6px;
+
+}
+
+.contact form button:hover {
+    background-color: #FB2E86;
+}
+
+.contact .way h4 {
+    font-family: 'Josefin Sans';
+    font-size: 36px;
+    line-height: 48px;
+    color: #151875;
+}
+
+.contact .way .circle-blue {
+    width: 45px;
+    height: 45px;
+    background-color: #5726DF;
+    border-radius: 50%;
+
+}
+
+.contact .way .circle-pink {
+    width: 45px;
+    height: 45px;
+    background-color: #FB2E86;
+    border-radius: 50%;
+
+}
+
+.contact .way .circle-orange {
+    width: 45px;
+    height: 45px;
+    background-color: #FFB265;
+    border-radius: 50%;
+
+}
+
+.contact .way .circle-green {
+    width: 45px;
+    height: 45px;
+    background-color: #1BE982;
+    border-radius: 50%;
+
+}
+
+.contact .way .img-contact {
+    margin-top: 120px;
+}
+
+.contact .way p {
+    color: #8A8FB9;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25.6px;
+
+}
+
+.custom {
+    background-color: #2B3CAB;
+}
+
+.custom img {
+
+    transform: translate(10px, -10px);
+}
+
+.text-custom {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.text-custom h4 {
+    font-family: 'Josefin Sans';
+    font-size: 36px;
+    line-height: 48px;
+    color: #151875;
+}
+
+.text-custom p {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25.6px;
+    color: #8A8FB9;
+}
+
+.text-custom button {
+    width: 145px;
+    height: 44px;
+    border: 0;
+    border-radius: 3px 0px 0px 0px;
+    background-color: #FB2E86;
+    margin-top: 100px;
+}
+
+.say-clinet {
+    background-color: #FFEBF1;
+}
+
+.say-clinet .img-client img {
+    margin: 13px;
+    border-radius: 3px;
+}
+
+.say-clinet .img-client .top-img {
+    transform: translateY(-10px);
+}
+
+.say-clinet h2 {
+    font-family: 'Josefin Sans';
+    font-size: 42px;
+    line-height: 25.6px;
+    color: #000000;
+
+}
+
+.say-clinet .text-say p {
+    font-family: 'Lato';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 25.6px;
+    color: #151875;
+}
+
+.say-clinet .text-say span {
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 25.6px;
+    color: #8A8FB9;
+}
+
+.say-clinet .lorem {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25.6px;
+    color: #8A8FB9;
+}
+
+.say-clinet .slide-b {
+    width: 27px;
+    height: 3px;
+    border-radius: 3px 0px 0px 0px;
+    background-color: #FB2E86;
+    margin: 2px;
+
+}
+.say-clinet .slide-n{
+    width: 18px;
+    height: 3px;
+    border-radius: 3px 0px 0px 0px;
+    background-color: #FF75B0
+    ;
+    margin: 2px;
+
+}
+.say-clinet .slide-p{
+    width: 18px;
+    height: 3px;
+    border-radius: 3px 0px 0px 0px;
+    background-color: #FF75B0
+    ;
+    margin: 2px;
+
+}
+
+
+
+@media (min-width: 576px) {
+
+}
+    
