@@ -1006,7 +1006,7 @@ form .iputs label {
 }
 
 .order .all-order .checklist {
-    bottom: -40%;
+    bottom: -70px;
     right: 0;
 }
 
@@ -1273,7 +1273,20 @@ form .iputs label {
 
 
 
-@media (min-width: 576px) {
-
+.order .border-bottom-dash {
+    border-bottom: 1px dashed #D2D1D1
+    ;
+    padding-bottom:80px;
+    border-left: 1px dashed #D2D1D1
+    ;
 }
-    
+.border-bottom-dash .clock {
+    transform: translateX(-20px);
+}
+
+
+@media (max-width: 725px) {
+    .layer-4  {
+        flex-direction: column;
+    }
+  }
