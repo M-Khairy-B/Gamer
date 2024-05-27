@@ -810,3 +810,57 @@ max-width: 40%;
     line-height: 23.44px;
     color: #1D3178;
 }
+
+.login .box{
+    padding: 30px;
+    max-width:550px;
+    margin: auto;
+    
+}
+.login{
+    padding: 200px 0;
+}
+.login h2{
+    color: #000;
+    font-size:32px ;
+    font-family: "Josefin Sans";
+    font-weight: bold;
+}
+.login .p{
+    color: #9096B2;
+    font-size:17px ;
+    font-family: 'Lato';
+}
+.login .input ,.login .forget{
+    max-width: 432px;
+    margin: auto;
+}
+.login input::placeholder{
+    color: #9096B2;
+    font-size:16px ;
+    font-family: 'Lato';
+}
+.login input{
+    padding: 15px;
+    outline: none;
+    border: 1px solid #C2C5E1;
+}
+.login .btnLogin{
+    max-width: 432px;
+    margin: auto;
+}
+.login .loginBtn{
+    background-color: #FF1788;
+    color: #fff;
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size:17px ;
+
+}
+.login .create{
+    color: #FD0054;
+    font-size:17px ;
+    font-family: 'Lato';
+    border: none;
+    background-color: transparent;
+}
