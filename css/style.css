@@ -14,7 +14,7 @@
 }
 
 .navbar-main ul li a {
-    font-family: "Salsa", cursive;
+    font-family: "Lato", sans-serif;
     color: #FFFFFF;
 }
 
@@ -44,8 +44,18 @@ header {
     right: 0;
     left: 0;
 }
+.line-left {
+    margin-top  : 93px;
+    width: 18px;
+    height: 211px;
+    background: linear-gradient(#EC368D, #D72828);
+    
 
-
+}
+.text-contorller {
+    margin-top: 93px;
+    padding-left: 66px;
+}
 .text-contorller h2 {
     font-family: "Montserrat", sans-serif;
     font-size: 48px;
@@ -66,9 +76,12 @@ header {
     color: #000000;
 }
 
+.text-contorller .buy-now {
+    padding-top: 59px;
+}
 .text-contorller button {
-    padding: 15px 50px;
-    border-radius: 10px;
+    padding: 30px 87px;
+    border-radius: 20px;
     background: linear-gradient(180deg, #EC368D 0%, #D72828 100%);
     border: none;
     color: #FFFFFF;
@@ -81,13 +94,13 @@ header {
     padding-left: 10px;
 }
 
-.text-contorller::before {
+/* .text-contorller::before {
     content: "";
     background-color: #EC368D;
     height: 100%;
     width: 10px;
     transform: translate(-50px, 100%);
-}
+} */
 
 .h-section h2 {
     font-family: 'Josefin Sans';
@@ -109,7 +122,9 @@ header {
     background-color: #EC368D;
     transform: rotate(45deg);
 }
-
+.button-click {
+    margin-top: 36px;
+}
 .one-button {
     width: 13.01px;
     height: 12.87px;
@@ -495,7 +510,9 @@ li.slick-active {
 .color li.orange {
     margin-left: 11px;
 }
-
+.Ecomerce button:hover{
+    background-color: #FB2E86;
+}
 .color li.orange::before {
     content: '';
     width: 15px;
@@ -1284,9 +1301,87 @@ form .iputs label {
     transform: translateX(-20px);
 }
 
+.login .box{
+    padding: 30px;
+    max-width:550px;
+    margin: auto;
+    
+}
+.login{
+    padding: 200px 0;
+}
+.login h2{
+    color: #000;
+    font-size:32px ;
+    font-family: "Josefin Sans";
+    font-weight: bold;
+}
+.login .p{
+    color: #9096B2;
+    font-size:17px ;
+    font-family: 'Lato';
+}
+.login .input ,.login .forget{
+    max-width: 432px;
+    margin: auto;
+}
+.login input::placeholder{
+    color: #9096B2;
+    font-size:16px ;
+    font-family: 'Lato';
+}
+.login input{
+    padding: 15px;
+    outline: none;
+    border: 1px solid #C2C5E1;
+}
+.login .btnLogin{
+    max-width: 432px;
+    margin: auto;
+}
+.login .loginBtn{
+    background-color: #FF1788;
+    color: #fff;
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size:17px ;
 
-@media (max-width: 725px) {
+}
+.login .create{
+    color: #FD0054;
+    font-size:17px ;
+    font-family: 'Lato';
+    border: none;
+    background-color: transparent;
+}
+
+@media (max-width: 920px) {
     .layer-4  {
         flex-direction: column;
     }
+    .section-none {
+        display: none;
+    }
+    .reponsive{
+        flex-direction: column;
+    }
+    .reponsive img {
+        width: 100px;
+    }
+    .footer-list {
+        text-align: center;
+        padding-top: 20px;
+    }
+    footer .s-icon  {
+        display: flex;
+        justify-content: center !important;
+    }
+    .line-left {
+        display: none;
+    }
+    .button-click {
+        padding-top: 10px;
+    }
+
   }
+  
